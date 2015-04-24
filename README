@@ -1,4 +1,6 @@
-This is a mirror of http://www.vim.org/scripts/script.php?script_id=4178
+This is a fork of https://github.com/vim-scripts/CursorLineCurrentWindow
+
+This fork adds support for 'cursorcolumn'.
 
 DESCRIPTION
 The 'cursorline' setting makes it easy to locate the cursor position. However,
@@ -15,8 +17,10 @@ permanent for (another) window.
 RELATED WORKS
 The basic idea is outlined in the Vim Tips Wiki:
     http://vim.wikia.com/wiki/Highlight_current_line
+    https://github.com/vim-scripts/CursorLineCurrentWindow
 
 USAGE
+(same for 'cursorcolumn' below)
 Globally enable 'cursorline' in your vimrc via
     :set cursorline
 After sourcing this plugin, 'cursorline' will only be active for the current
